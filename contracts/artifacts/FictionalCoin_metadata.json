@@ -173,37 +173,6 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "burn",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "account",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "burnFrom",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "decimals",
 				"outputs": [
@@ -325,32 +294,6 @@
 			},
 			{
 				"inputs": [],
-				"name": "totalBurned",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "totalMinted",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
 				"name": "totalSupply",
 				"outputs": [
 					{
@@ -440,12 +383,6 @@
 				},
 				"balanceOf(address)": {
 					"details": "See {IERC20-balanceOf}."
-				},
-				"burn(uint256)": {
-					"details": "Destroys `amount` tokens from the caller. See {ERC20-_burn}."
-				},
-				"burnFrom(address,uint256)": {
-					"details": "Destroys `amount` tokens from `account`, deducting from the caller's allowance. See {ERC20-_burn} and {ERC20-allowance}. Requirements: - the caller must have allowance for ``accounts``'s tokens of at least `amount`."
 				},
 				"decimals()": {
 					"details": "Returns the number of decimals used to get its user representation. For example, if `decimals` equals `2`, a balance of `505` tokens should be displayed to a user as `5.05` (`505 / 10 ** 2`). Tokens usually opt for a value of 18, imitating the relationship between Ether and Wei. This is the value {ERC20} uses, unless this function is overridden; NOTE: This information is only used for _display_ purposes: it in no way affects any of the arithmetic of the contract, including {IERC20-balanceOf} and {IERC20-transfer}."
@@ -558,10 +495,10 @@
 			]
 		},
 		"contracts/fnl-token.sol": {
-			"keccak256": "0xe064cd9344a784911f230fd7a1e4700f86dca32e587c28e877585c9952a2605b",
+			"keccak256": "0x5a82359efc0cbc30870190d999f1b2a735c069010b5da15ef0d6b3ae3a8ccc6d",
 			"urls": [
-				"bzz-raw://0f0c69a2bb43b62816675c676d432ef787b69de7ad2613f098003dd6f32b31a0",
-				"dweb:/ipfs/QmQzqVBE2rYN8ipmoB367jppScujLRrTPbYjsPR54MtET1"
+				"bzz-raw://717359a53e19f40fbd9853a5a0b72f3c7bcd7654ce09036767f122e60facd39e",
+				"dweb:/ipfs/QmbVF1RBuCFXaU4DaeATJ9kUY3v3u3v7sz2hQRWGTpQMTD"
 			]
 		}
 	},
